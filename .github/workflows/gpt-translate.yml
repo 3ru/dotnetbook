@@ -16,5 +16,8 @@ jobs:
       - name: 运行 GPT 翻译
         uses: 3ru/gpt-translate@master
         with:
+          inputFiles: './book/ru/Memory/02-MemoryManagement-Basics/02-03-MemoryManagement-RefVsValueTypes.md'
+          outputFiles: './learn/book/zh-cn/Memory/02-MemoryManagement-Basics/02-03-MemoryManagement-RefVsValueTypes.md'
+          languages: 'Chinese'
           apikey: ${{ secrets.OPENAI_API_KEY }}
           model: "gpt-4"
