@@ -20,4 +20,4 @@ jobs:
           outputFiles: './learn/book/zh-cn/Memory/02-MemoryManagement-Basics/02-03-MemoryManagement-RefVsValueTypes.md'
           languages: 'Chinese'
           apikey: ${{ secrets.OPENAI_API_KEY }}
-          model: "gpt-4"
+          model: "gpt-4-turbo-preview"
